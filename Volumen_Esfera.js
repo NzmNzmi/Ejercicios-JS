@@ -1,7 +1,10 @@
 // V = 4/3 π r³
 
-let radio, volumen;
-volumen = 4/3 * Math.PI * radio^3;
+println("Vamos a calcular el volumen de una esfera!");
 
-var input = prompt("What is your name?");
-console.log("Hello, " + input + "!");
+var radio = readLine("Cuál es el radio de la esfera?");
+
+let volumen;
+volumen = 4/3 * Math.PI * radio * radio * radio;
+
+println("El valor del volumen es" + volumen);
